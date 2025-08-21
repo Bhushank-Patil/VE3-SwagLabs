@@ -23,11 +23,11 @@ public class HomePage extends BasePage {
     }
 
     public boolean isPageLoaded() {
-        return pageTitle.getText().equals("Products");
+        return getText(pageTitle).trim().equalsIgnoreCase("Products");
     }
 
     public void addFirstProductToCart() {
-        click(addToCartButton); // first product
+        click(addToCartButton);
     }
 
     public CartPage goToCart() {
