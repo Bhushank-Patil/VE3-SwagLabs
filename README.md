@@ -118,14 +118,3 @@ TestNG will execute the tests, and results will be displayed in the console.
 
 After test execution, detailed reports can be found in the `reports/` directory.
 
-## Contributing
-
-Contributions are welcome! Please fork the repository, create a new branch, and submit a pull request with your changes.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify this template to better fit the specifics of your project.
